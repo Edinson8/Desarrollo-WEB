@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Página HTML5</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Bienvenidos a Mi Sitio Web</h1>
+    <nav>
+      <ul>
+        <li><a href="#seccion1">Inicio</a></li>
+        <li><a href="#seccion2">Galería</a></li>
+        <li><a href="#seccion3">Contacto</a></li>
+      </ul>
+    </nav>
+   
+
+
+  </header>
+
+  <main>
+    <section id="seccion1">
+      <h2>Sobre Nosotros</h2>
+      <p>Este es un <strong>proyecto de ejemplo</strong> creado con <em>HTML5 y CSS3</em>.</p>
+    </section>
+
+    <section id="seccion2">
+      <h2>Galería </h2>
+      <article>
+        <h3>Imagen destacada</h3>
+       
+        <article style="display: flex; align-items: center; gap: 20px;">
+  <img src="asset/img/imagen1.jpg" alt="Imagen de ejemplo" width="300">
+  <div style="border: 1px solid #ccc; padding: 10px; background-color: #f0f0f0;">
+    <p> El guacamayo rojo o guacamayo aliverde es una especie de ave psitaciforme de la familia de los psitácidos que habita en los bosques y tierras arboladas del norte y centro de América del Sur 
+        Refleja el diseño limpio y profesional del sitio web.</p>
+  </div>
+</article>
+        <h3>Video informativo</h3>
+        <article style="display: flex; align-items: center; gap: 20px; margin-top: 20px;">
+  <iframe 
+    width="300" 
+    height="169" 
+    src="https://www.youtube.com/embed/nlhS2aJNfqY?si=Noxi4zNNAu6VCJnm" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen>
+  </iframe>
+
+  <div style="border: 1px solid #ccc; padding: 10px; background-color: #f0f0f0;">
+    <p> Los servicios públicos son fundamentales para el bienestar de la sociedad, ya que satisfacen necesidades básicas de la población como el acceso al agua potable, energía eléctrica, salud, educación, transporte y saneamiento. Su importancia radica en que:
+
+Garantizan calidad de vida: Permiten a las personas vivir en condiciones dignas y seguras.
+
+Promueven la equidad: Aseguran que todos los ciudadanos, sin importar su situación económica, puedan acceder a servicios esenciales.
+
+Impulsan el desarrollo económico y social: Facilitan el funcionamiento de las actividades productivas y el crecimiento de las comunidades.
+
+Fomentan la salud pública y la educación: Son clave para prevenir enfermedades y formar ciudadanos preparados..</p>
+  </div>
+</article>
+
+      </article>
+    </section>
+
+    <section>
+      <h2>Listas de contenido</h2>
+      <h3>Lista Ordenada</h3>
+      <ol>
+        <li>Paso 1</li>
+        <li>Paso 2</li>
+        <li>Paso 3</li>
+      </ol>
+
+      <h3>Lista Desordenada</h3>
+      <ul>
+        <li>Elemento A</li>
+        <li>Elemento B</li>
+        <li>Elemento C</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Tabla de Datos</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Producto</th>
+            <th>Precio</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Producto 1</td>
+            <td>$10</td>
+          </tr>
+          <tr>
+            <td>Producto 2</td>
+            <td>$15</td>
+          </tr>
+          <tr>
+            <td>Producto 3</td>
+            <td>$20</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="seccion3">
+      <h2>Formulario de Contacto</h2>
+      <form>
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre"><br><br>
+
+        <label for="correo">Correo:</label><br>
+        <input type="email" id="correo" name="correo"><br><br>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Enlace Externo</h2>
+      <p>Visita <a href="https://www.ejemplo.com" target="_blank">este sitio interesante</a>.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Mi Página Web. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
+
